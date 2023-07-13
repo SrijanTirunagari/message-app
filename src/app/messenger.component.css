@@ -1,0 +1,212 @@
+.container {
+    display:flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-attachment: fixed;
+  }
+  
+  .sidebar::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to bottom, #ffffff, #ffffff);
+  z-index: -1;
+  }
+  .sidebar .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #369e90d6;
+    width: 2000px;
+    height: 20%;
+    margin-left: -26px;
+    margin-top: -13px;
+  }
+  
+  .sidebar .header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    
+  }
+  
+  .sidebar .search input {
+    width: 100%;
+    padding: 10px;
+    border:#000000;
+    border-radius: 5px;
+    margin-bottom: 1px;
+    margin-top: -5px;
+    margin-left: -10px;
+  }
+  
+  .sidebar .contacts .contact {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .sidebar .contacts .contact:hover {
+    background-color: #eaeaea;
+  }
+  
+  .sidebar .contacts .contact.active {
+    background-color: #f0f0f0;
+  }
+  
+  .sidebar .contacts .contact .contact-avatar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .sidebar .contacts .contact .contact-details .contact-name {
+    font-weight: bold;
+  }
+  
+  .sidebar .contacts .contact .message-status {
+    margin-left: auto;
+  }
+  .sidebar .contacts .contact .message-status .unread-badge {
+    display: inline-block;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    margin-right: 5px;
+  } 
+  .sidebar .contacts .contact .message-status .online-indicator {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #25d366;
+    border-radius: 50%;
+  }
+  
+  .chat {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chat-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #369e90d6;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .chat-header .contact-avatar img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .chat-header .contact-details .contact-name {
+    font-weight: bold;
+  }
+  
+  .chat-header .contact-details .online-status {
+    font-size: 12px;
+    color: #ffffff;
+  }
+  
+  .chat-messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background-image: url("https://cutewallpaper.org/21/whatsapp-background-wallpaper/Whatsapp-Background-Polandballart.png");
+  }
+  
+  .chat-messages .message {
+    background-color: #fff;
+    align-self: flex-end;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: right;
+    margin-left: -5px;
+    text-align: left;
+    max-width: 30%;
+    margin-top: 10px;
+  }
+  
+  .chat-messages .message.sent {
+    padding: 10px;
+    margin-bottom: 10px;
+    max-width: 30%;
+    border-radius: 5px;
+    background-color: #ddffc3;
+    text-align: right;
+    margin-left: 700px;
+  }
+  
+  .chat-messages .message .message-content {
+    word-wrap: break-word;
+  }
+  
+  .chat-messages .message .message-timestamp {
+    font-size: 12px;
+    color: #383636;
+  }
+  
+  .chat-input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    margin-top: -10px;
+  }
+  
+  .chat-input input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .chat-input .send-button {
+    margin-left: 10px;
+    padding: 10px;
+    background-color: #25d366;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .unread-badge {
+    font-weight: bold;
+  }
+  
+  .online-indicator {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #25d366;
+    border-radius: 50%;
+  }
+  
+
+  .sidebar .header .messenger-name {
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(25, 31, 25);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+  }
