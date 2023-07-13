@@ -1,0 +1,234 @@
+[
+  {
+    "id": 1,
+    "name": "Panda",
+    "avatar": "assets/img/panda.jpg",
+    "online": true,
+    "lastMessage": "Hello",
+    "unreadMessages": 2,
+    "messages": [
+      {
+        "id": 1,
+        "text": "Hello",
+        "sender": "panda",
+        "timestamp": "2023-07-02T10:30:00Z"
+      },
+      {
+        "id": 2,
+        "text": "Hi",
+        "sender": "You",
+        "timestamp": "2023-07-02T10:31:00Z"
+      },
+      {
+        "id": 3,
+        "text": "How are you?",
+        "sender": "You",
+        "timestamp": "2023-07-02T10:31:00Z"
+      },
+      {
+        "id": 4,
+        "text": "I am fine",
+        "sender": "panda",
+        "timestamp": "2023-07-02T10:31:00Z"
+      },
+      {
+        "id": 5,
+        "text": "What about you?",
+        "sender": "panda",
+        "timestamp": "2023-07-02T10:31:00Z"
+      },
+      {
+        "id": 6,
+        "text": "Hi",
+        "sender": "You",
+        "timestamp": "2023-07-02T10:31:00Z"
+      },
+      {
+        "id": 7,
+        "text": "Hi",
+        "sender": "You",
+        "timestamp": "2023-07                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              -02T10:31:00Z"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Mummy",
+    "avatar": "assets/img/mummy.jpg",
+    "online": false,
+    "lastMessage": "How are you?",
+    "unreadMessages": 0,
+    "messages": [
+      {
+        "id": 1,
+        "text": "Hey",
+        "sender": "You",
+        "timestamp": "2023-07-02T11:00:00Z"
+      },
+      {
+        "id": 2,
+        "text": "How are you?",
+        "sender": "Mummy",
+        "timestamp": "2023-07-02T11:01:00Z"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Niha",
+    "avatar": "assets/img/niharika.jpg",
+    "online": true,
+    "lastMessage": "Good morning!",
+    "unreadMessages": 1,
+    "messages": [
+      {
+        "id": 1,
+        "text": "Good morning!",
+        "sender": "Niha",
+        "timestamp": "2023-07-02T09:00:00Z"
+      },
+      {
+        "id": 2,
+        "text": "Morning!",
+        "sender": "You",
+        "timestamp": "2023-07-02T09:01:00Z"
+      },
+      {
+        "id": 1,
+        "text": "You heard about the ethnic day event?",
+        "sender": "Niha",
+        "timestamp": "2023-07-02T09:00:00Z"
+      },
+      {
+        "id": 2,
+        "text": "Yes I did!",
+        "sender": "You",
+        "timestamp": "2023-07-02T09:01:00Z"
+      },
+      {
+        "id": 1,
+        "text": "what are you planning then?",
+        "sender": "Niha",
+        "timestamp": "2023-07-02T09:00:00Z"
+      },
+      {
+        "id": 2,
+        "text": "NO idea re. ",
+        "sender": "You",
+        "timestamp": "2023-07-02T09:01:00Z"
+      },
+      {
+        "id": 1,
+        "text": "WIll you dance with me?",
+        "sender": "Niha",
+        "timestamp": "2023-07-02T09:00:00Z"
+      },
+      {
+        "id": 2,
+        "text": "are you serious? no jokes please",
+        "sender": "You",
+        "timestamp": "2023-07-02T09:01:00Z"
+      },
+      {
+        "id": 1,
+        "text": "I'm serious raaa.. lets dance together.",
+        "sender": "Niha",
+        "timestamp": "2023-07-02T09:00:00Z"
+      },
+      {
+        "id": 2,
+        "text": "for sure then.",
+        "sender": "You",
+        "timestamp": "2023-07-02T09:01:00Z"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Bubbly",
+    "avatar": "assets/img/bubbly.jpg",
+    "online": true,
+    "lastMessage": "See you later!",
+    "unreadMessages": 0,
+    "messages": [
+      {
+        "id": 1,
+        "text": "See you later!",
+        "sender": "Bubbly",
+        "timestamp": "2023-07-01T19:30:00Z"
+      },
+      {
+        "id": 2,
+        "text": "Goodbye!",
+        "sender": "You",
+        "timestamp": "2023-07-01T19:31:00Z"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Anirudh",
+    "avatar": "assets/img/anirudh.jpg",
+    "online": false,
+    "lastMessage": "Are you free tomorrow?",
+    "unreadMessages": 0,
+    "messages": [
+      {
+        "id": 1,
+        "text": "Are you free tomorrow?",
+        "sender": "anirudh",
+        "timestamp": "2023-07-01T14:45:00Z"
+      },
+      {
+        "id": 2,
+        "text": "Yes, I am.",
+        "sender": "You",
+        "timestamp": "2023-07-01T14:46:00Z"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Yusuf",
+    "avatar": "assets/img/yusuf.jpg",
+    "online": true,
+    "lastMessage": "See you at the party!",
+    "unreadMessages": 0,
+    "messages": [
+      {
+        "id": 1,
+        "text": "See you at the party!",
+        "sender": "yusuf",
+        "timestamp": "2023-07-31T20:15:00Z"
+      },
+      {
+        "id": 2,
+        "text": "Can't wait!",
+        "sender": "You",
+        "timestamp": "2023-06-31T20:16:00Z"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Varsha",
+    "avatar": "assets/img/varsha.jpg",
+    "online": true,
+    "lastMessage": "Did you finish the project?",
+    "unreadMessages": 1,
+    "messages": [
+      {
+        "id": 1,
+        "text": "Did you finish the project?",
+        "sender": "varsha",
+        "timestamp": "2023-06-31T09:30:00Z"
+      },
+      {
+        "id": 2,
+        "text": "Almost done!",
+        "sender": "You",
+        "timestamp": "2023-06-31T09:31:00Z"
+      }
+    ]
+  }
+]
